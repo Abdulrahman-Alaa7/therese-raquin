@@ -9,8 +9,6 @@ tabsArray.forEach((ele) => {
   ele.addEventListener("click", function (e) {
     tabsArray.forEach((ele) => {
       ele.classList.remove("active");
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     });
     e.currentTarget.classList.add("active");
     divsArray.forEach((div) => {
