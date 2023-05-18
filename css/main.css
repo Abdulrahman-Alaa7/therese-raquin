@@ -116,19 +116,19 @@ header .info h1 {
   margin: 0;
 }
 header .info p {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: #fff;
   font-size: 40px;
   text-align: center;
 }
-header .info img {
+/* header .info img {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 8px);
   width: 100px;
   height: 100px;
   border-radius: 50%;
-}
+} */
 
 @media (max-width: 650px) {
   header .info h1 {
@@ -203,7 +203,7 @@ footer span {
   gap: 10px;
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
+  padding: 0 10px;
   margin: 20px 0;
 }
 
@@ -407,3 +407,70 @@ footer span {
 }
 
 /* End Animation */
+
+.em {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.em img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.par {
+  text-align: center;
+}
+
+.par .count-down {
+  margin: 10px 0;
+  font-size: 30px;
+  border: 2px solid var(--main-color);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.unit {
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  width: 75px;
+  transition: 0.3s;
+}
+
+.unit:hover {
+  border-color: var(--main-color);
+}
+
+.time span {
+  display: block;
+}
+
+.unit span:first-of-type {
+  font-size: 35px;
+  font-weight: bold;
+  color: #d4d4d4;
+  padding: 15px;
+}
+
+.unit span:last-of-type {
+  border-top: 1px solid #d4d4d4;
+  padding: 8px 10px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.unit:hover span:last-of-type {
+  border-color: var(--main-color);
+}

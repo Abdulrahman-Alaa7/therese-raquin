@@ -453,3 +453,57 @@ footer a h4 span {
 }
 
 /* End Animation */
+
+.par {
+  text-align: center;
+}
+
+.par .count-down {
+  margin: 10px 0;
+  font-size: 30px;
+  border: 2px solid var(--main-color);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.unit {
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  width: 75px;
+  transition: 0.3s;
+}
+
+.unit:hover {
+  border-color: var(--main-color);
+}
+
+.time span {
+  display: block;
+}
+
+.unit span:first-of-type {
+  font-size: 35px;
+  font-weight: bold;
+  color: #d4d4d4;
+  padding: 15px;
+}
+
+.unit span:last-of-type {
+  border-top: 1px solid #d4d4d4;
+  padding: 8px 10px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.unit:hover span:last-of-type {
+  border-color: var(--main-color);
+}
