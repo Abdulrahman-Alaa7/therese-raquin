@@ -124,7 +124,7 @@ footer span {
   font-weight: bold;
 }
 
-footer a h4 {
+footer a {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -136,7 +136,7 @@ footer a h4 {
   border: 2px solid var(--main-color);
   transition: 0.3s;
 }
-footer a h4:hover {
+footer a:hover {
   background-color: var(--main-color);
 }
 
@@ -272,7 +272,8 @@ footer a h4 span {
   color: #fff;
 }
 
-.content .box p.fr {
+.content .box p.fr,
+.content p.fr {
   position: relative;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
