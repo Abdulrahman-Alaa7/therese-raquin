@@ -474,3 +474,12 @@ footer span {
 .unit:hover span:last-of-type {
   border-color: var(--main-color);
 }
+
+.ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  background-color: #ddd;
+  padding: 10px;
+}
