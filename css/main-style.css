@@ -92,7 +92,7 @@ header .info h1 {
 
 .heading {
   text-align: center;
-  background-color: var(--main-color);
+  background-color: #04aa6de0;
   color: #fff;
   margin-bottom: 20px;
   padding: 20px 0;
@@ -107,7 +107,7 @@ header .info h1 {
 
 .heading-ch {
   text-align: center;
-  background-color: var(--main-color);
+  background-color: #04aa6de0;
   color: #fff;
   margin-bottom: 20px;
   padding: 20px 0;
