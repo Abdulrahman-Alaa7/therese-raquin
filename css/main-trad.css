@@ -58,8 +58,7 @@ header .mode {
   border-radius: 8px;
   transition: 0.3s;
 }
-header .mode.active,
-header .mode:hover {
+header .mode.active {
   background-color: var(--main-color);
 }
 
