@@ -14,6 +14,10 @@ body {
   scroll-behavior: smooth;
 }
 
+body.dark {
+  background-color: #23272f;
+}
+
 ::selection {
   background-color: var(--main-color);
   color: #fff;
@@ -43,6 +47,23 @@ header {
   background-color: rgb(0, 0, 0, 60%);
 }
 
+header .mode {
+  z-index: 10;
+  position: absolute;
+  color: #fff;
+  right: 5px;
+  top: 10px;
+  cursor: pointer;
+  border: 2px solid var(--main-color);
+  padding: 8px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+header .mode.active,
+header .mode:hover {
+  background-color: var(--main-color);
+}
+
 header .info {
   position: absolute;
   color: #fff;
@@ -52,6 +73,7 @@ header .info {
   transform: translate(-50%, -50%);
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  margin-top: 25px;
 }
 
 header .info h1 {
@@ -167,7 +189,6 @@ footer a h4 span {
   align-items: center;
   background-color: #000;
   color: #fff;
-  border-right: 1px solid white;
   cursor: pointer;
   transition: 0.2s;
   border-radius: 8px;
@@ -317,6 +338,23 @@ footer a h4 span {
   left: 50%;
   transform: translateX(-50%);
   top: -38px;
+}
+
+.content.dark {
+  background-color: #23272f;
+}
+
+.box p.fr.dark {
+  background-color: #16181d;
+  color: #fff;
+}
+
+p.ar.dark {
+  background-color: #343a46;
+}
+
+p.ar.dark::before {
+  border-color: transparent transparent #343a46 transparent;
 }
 
 /* End Content */

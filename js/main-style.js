@@ -270,3 +270,23 @@ var x = setInterval(function () {
     document.getElementById("sec").innerHTML = "0";
   }
 }, 1000);
+
+// Setting Dark Mode
+
+const darkBody = document.body;
+const dark = document.querySelector(".mode");
+const darkContent = document.querySelector(".content");
+const darkArabic = document.querySelectorAll(".ar");
+const darkFr = document.querySelectorAll(".box p.fr");
+
+dark.addEventListener("click", function darkMode() {
+  dark.classList.toggle("active");
+  darkBody.classList.toggle("dark");
+  darkContent.classList.toggle("dark");
+  darkArabic.forEach((e) => {
+    e.classList.toggle("dark");
+  });
+  darkFr.forEach((ev) => {
+    ev.classList.toggle("dark");
+  });
+});
