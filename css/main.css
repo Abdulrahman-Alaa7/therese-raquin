@@ -272,7 +272,6 @@ footer span {
 .content p.ar {
   position: relative;
   font-family: "Cairo", sans-serif;
-  letter-spacing: 1px;
   background-color: var(--ar-color);
   color: #fff;
   padding: 10px;
